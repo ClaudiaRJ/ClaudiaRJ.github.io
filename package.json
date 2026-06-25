@@ -1,0 +1,23 @@
+{
+  "name": "medieval-bounty-board-portfolio",
+  "version": "1.0.0",
+  "description": "Personal interactive portfolio with medieval bounty board theme and animations",
+  "main": "WebPage/index.html",
+  "author": "Claudia Reche",
+  "license": "proprietary",
+  "private": true,
+  "keywords": [
+    "portfolio",
+    "medieval",
+    "interactive",
+    "animations",
+    "vanilla-js"
+  ],
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "serve": "live-server WebPage/"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
